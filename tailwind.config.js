@@ -6,7 +6,7 @@ const Myclass = plugin(function ({ addUtilities }) {
   addUtilities({
     ".any-class": {
       transform: "rotateY(0deg)",
-    }
+    },
   });
 });
 
@@ -27,8 +27,8 @@ export default {
         },
       },
       fontFamily: {
-        main: ["Montserrat", "sans-serif"],
-        secondary: ["Manrope", "sans-serif"],
+        jomolhari: ["Jomolhari", "serif"],
+        lato: ["Manrope", "sans-serif"],
       },
       colors: {
         primary: "#1B1D1B",
