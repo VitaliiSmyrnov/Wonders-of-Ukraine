@@ -1,0 +1,26 @@
+/* montserrat-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/montserrat-v26-latin-regular.woff2") format("woff2");
+}
+/* manrope-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/manrope-v15-latin-regular.woff2") format("woff2");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-gradient: linear-gradient(to top right, #475569, #64748b, #94a3b8);
+  }
+}
