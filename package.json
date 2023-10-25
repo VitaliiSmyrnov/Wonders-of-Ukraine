@@ -2,6 +2,7 @@
   "name": "wonders-of-ukraine",
   "private": true,
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,6 +11,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
+    "cssnano": "^6.0.1",
     "postcss": "^8.4.31",
     "prettier-plugin-tailwindcss": "^0.5.6",
     "tailwindcss": "^3.3.3",
