@@ -8,11 +8,12 @@
   </head>
   <body class="bg-bg font-jomolhari text-white">
     <div class="relative mx-auto w-[375px] bg-but md:w-[834px] lg:w-[1440px]">
-      {{>header}}
+      {{>header}} {{>menu-modal}}
 
       <main>{{>hero}}</main>
     </div>
 
     <script type="module" src="./src/js/main.js"></script>
+    <script defer type="module" src="./src/js/burger.js"></script>
   </body>
 </html>
