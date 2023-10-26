@@ -1,24 +1,55 @@
 <!-- Header -->
 
-<header>
-  <div class="flex h-[46px] w-[343px] justify-between">
+<header
+  class="absolute left-0 top-0 z-10 w-full px-[16px] py-[16px] md:px-[32px]"
+>
+  <div class="flex h-[46px] items-center justify-between">
     <a href="index.html">
-      <img src="images/common/logo.png" alt="Logo" />
+      <img
+        src="images/common/logo.png"
+        srcset="images/common/logo.png 1x, images/common/logo@2x.png 2x"
+        alt="Logo"
+      />
     </a>
 
-    <button type="button">
-      <svg
-        class="h-10 w-10 stroke-current text-white transition-all duration-200 hover:text-accent"
-        viewBox="0 0 40 40"
+    <nav>
+      <button type="button" class="md:hidden">
+        <svg
+          class="h-10 w-10 stroke-current text-white transition-all duration-200 hover:text-but"
+          viewBox="0 0 40 40"
+        >
+          <path
+            d="M8.333 28.333h13.333M8.333 20h23.333m-13.333-8.333h13.333"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <span class="sr-only">Menu modal</span>
+      </button>
+
+      <ul
+        class="text-18 tracking hidden font-lato font-bold md:flex md:gap-[32px] lg:gap-[64px]"
       >
-        <path
-          d="M8.333 28.333h13.333M8.333 20h23.333m-13.333-8.333h13.333"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </svg>
-      <span class="sr-only">Menu modal</span>
-    </button>
+        <li>
+          <a href="#about-us" class="transition-all hover:text-white/80"
+            >About us</a
+          >
+        </li>
+        <li>
+          <a href="#tours" class="transition-all hover:text-white/80">Tours</a>
+        </li>
+        <li>
+          <a href="#gallery" class="transition-all hover:text-white/80"
+            >Gallery</a
+          >
+        </li>
+        <li>
+          <a href="#contacts" class="transition-all hover:text-white/80"
+            >Contacts</a
+          >
+        </li>
+      </ul>
+    </nav>
   </div>
 </header>
