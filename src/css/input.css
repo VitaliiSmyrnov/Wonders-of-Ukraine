@@ -28,7 +28,7 @@
 
 @layer base {
   :root {
-    --bg-gradient: linear-gradient(to top right, #475569, #64748b, #94a3b8);
+    --bg-modal: linear-gradient(to bottom, #141a19, #072025, #111b1c);
   }
 }
 

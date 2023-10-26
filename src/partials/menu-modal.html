@@ -1,0 +1,59 @@
+<!-- Menu popup -->
+
+<div
+  class="backdrop-hidden absolute left-0 top-0 z-20 h-[812px] w-[375px] -translate-y-full overflow-y-auto bg-bg transition-all duration-200 md:hidden"
+  data-menu
+>
+  <div class="flex h-[78px] items-center justify-between p-[16px]">
+    <a href="index.html" class="relative">
+      <img
+        src="images/common/logo.png"
+        srcset="images/common/logo.png 1x, images/common/logo@2x.png 2x"
+        alt="Logo"
+      />
+      <div
+        class="absolute inset-0 bg-bg opacity-0 transition-opacity hover:opacity-30"
+      ></div>
+    </a>
+
+    <button type="button" data-menu-close>
+      <svg
+        class="h-10 w-10 stroke-current text-white transition-opacity hover:opacity-70"
+        viewBox="0 0 40 40"
+      >
+        <path
+          d="M30 10 10 30M10 10l20 20"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <span class="sr-only">Close modal</span>
+    </button>
+  </div>
+
+  <ul
+    class="text-18 absolute left-[151px] top-[260px] z-40 flex w-[74px] flex-col items-center gap-[16px] font-lato font-bold"
+  >
+    <li>
+      <a href="#about-us" class="transition-opacity hover:opacity-70"
+        >About us</a
+      >
+    </li>
+    <li>
+      <a href="#tours" class="transition-opacity hover:opacity-70">Tours</a>
+    </li>
+    <li>
+      <a href="#gallery" class="transition-opacity hover:opacity-70">Gallery</a>
+    </li>
+    <li>
+      <a href="#contacts" class="transition-opacity hover:opacity-70"
+        >Contacts</a
+      >
+    </li>
+  </ul>
+
+  <div
+    class="bg-modal dpr:bg-modal2x absolute bottom-0 left-0 z-30 h-[527px] w-[375px] bg-cover bg-center bg-no-repeat"
+  ></div>
+</div>
