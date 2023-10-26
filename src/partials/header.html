@@ -4,18 +4,21 @@
   class="absolute left-0 top-0 z-10 w-full px-[16px] py-[16px] md:px-[32px]"
 >
   <div class="flex h-[46px] items-center justify-between">
-    <a href="index.html">
+    <a href="index.html" class="relative">
       <img
         src="images/common/logo.png"
         srcset="images/common/logo.png 1x, images/common/logo@2x.png 2x"
         alt="Logo"
       />
+      <div
+        class="absolute inset-0 bg-bg opacity-0 transition-opacity hover:opacity-30"
+      ></div>
     </a>
 
     <nav>
       <button type="button" class="md:hidden">
         <svg
-          class="h-10 w-10 stroke-current text-white transition-all duration-200 hover:text-but"
+          class="h-10 w-10 stroke-current text-white transition-opacity hover:opacity-70"
           viewBox="0 0 40 40"
         >
           <path
