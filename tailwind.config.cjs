@@ -15,6 +15,7 @@ export default {
   theme: {
     extend: {
       screens: {
+        sm: "375px",
         md: "834px",
         lg: "1440px",
         "md-img": "400px",
@@ -26,18 +27,18 @@ export default {
       },
       fontFamily: {
         jomolhari: ["Jomolhari", "serif"],
-        lato: ["Manrope", "sans-serif"],
+        lato: ["Lato", "sans-serif"],
       },
       colors: {
-        accent: "#394014",
-        background: "#141A19",
+        bg: "#141A19",
+        but: "#394014",
         "back-menu-mobile": "#141A1A",
       },
       dropShadow: {
         text: "0px 4px 4px rgba(0, 0, 0, 0.25)",
       },
       fontSize: {
-        14: ["14px", { lineHeight: "17px" }],
+        18: ["18px", { lineHeight: "25.2px", letterSpacing: "0.18px" }],
         16: ["16px", { lineHeight: "20px" }],
         "16l": ["16px", { lineHeight: "22px" }],
       },
