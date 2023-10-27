@@ -29,6 +29,18 @@
 @layer base {
   :root {
     --bg-modal: linear-gradient(to bottom, #141a19, #072025, #111b1c);
+    --bg-hero: linear-gradient(
+      to bottom,
+      #959396,
+      #424554 20%,
+      #a5948a 70%,
+      #1d2527
+    );
+    --bg-hero-mirror: linear-gradient(
+      15deg,
+      #fff -54.67%,
+      rgba(255, 255, 255, 0) 58.38%
+    );
   }
 }
 
