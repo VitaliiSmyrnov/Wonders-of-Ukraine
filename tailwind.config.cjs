@@ -33,7 +33,7 @@ export default {
       colors: {
         bg: "#141A19",
         but: "#394014",
-        "back-menu-mobile": "#141A1A",
+        grey: "#5A5959",
       },
       dropShadow: {
         text: "0px 4px 4px rgba(0, 0, 0, 0.25)",
@@ -42,6 +42,7 @@ export default {
         16: ["16px", { lineHeight: "22.4px", letterSpacing: "0.16px" }],
         18: ["18px", { lineHeight: "25.2px", letterSpacing: "0.18px" }],
         24: ["24px", { lineHeight: "33.6px", letterSpacing: "0.24px" }],
+        32: ["32px", { lineHeight: "44.8px", letterSpacing: "0.32px" }],
         40: ["40px", { lineHeight: "56.0px", letterSpacing: "0.4px" }],
         48: ["48px", { lineHeight: "67.2px", letterSpacing: "0.48px" }],
         64: ["64px", { lineHeight: "89.6px", letterSpacing: "0.64px" }],
@@ -62,6 +63,8 @@ export default {
         "about-tab2x": "url('./images/tab/tab-about@2x.png')",
         "about-desk": "url('./images/desk/desk-about.png')",
         "about-desk2x": "url('./images/desk/desk-about@2x.png')",
+        "tours-back": "url('./images/desk/desk-tours-back.png')",
+        "tours-back2x": "url('./images/desk/desk-tours-back@2x.png')",
       },
     },
   },
