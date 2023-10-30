@@ -1,5 +1,11 @@
+import Swiper from "swiper";
+import { Navigation, Keyboard } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+
 const swiperTours = new Swiper("#swiper-tours", {
   // Optional parameters
+  modules: [Navigation, Keyboard],
   direction: "horizontal",
   loop: false,
   breakpoints: {

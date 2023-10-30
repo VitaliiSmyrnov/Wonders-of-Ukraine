@@ -45,5 +45,5 @@
 }
 
 .nav-link {
-  @apply relative flex h-[35px] items-center transition-all duration-200 before:absolute before:bottom-0 before:left-1/2 before:h-0.5 before:w-0 before:rounded-full before:bg-white before:opacity-0 before:transition-all before:duration-200 before:content-[''] hover:before:left-0 hover:before:w-full hover:before:opacity-100;
+  @apply relative flex h-[35px] items-center transition-all duration-200 before:absolute before:bottom-0 before:left-1/2 before:h-0.5 before:w-0 before:rounded-full before:bg-white before:opacity-0 before:transition-all before:duration-200 hover:before:left-0 hover:before:w-full hover:before:opacity-100;
 }
