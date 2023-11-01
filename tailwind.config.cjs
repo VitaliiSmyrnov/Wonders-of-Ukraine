@@ -41,6 +41,7 @@ export default {
       fontSize: {
         16: ["16px", { lineHeight: "22.4px", letterSpacing: "0.16px" }],
         18: ["18px", { lineHeight: "25.2px", letterSpacing: "0.18px" }],
+        20: ["20px", { lineHeight: "28.0px", letterSpacing: "0.2px" }],
         24: ["24px", { lineHeight: "33.6px", letterSpacing: "0.24px" }],
         32: ["32px", { lineHeight: "44.8px", letterSpacing: "0.32px" }],
         40: ["40px", { lineHeight: "56.0px", letterSpacing: "0.4px" }],
@@ -65,6 +66,16 @@ export default {
         "about-desk2x": "url('./images/desk/desk-about@2x.png')",
         "tours-back": "url('./images/desk/desk-tours-back.png')",
         "tours-back2x": "url('./images/desk/desk-tours-back@2x.png')",
+        "reviews-mob": "url('./images/mob/mob-reviews.jpg'), var(--bg-modal)",
+        "reviews-mob2x":
+          "url('./images/mob/mob-reviews@2x.jpg'), var(--bg-modal)",
+        "reviews-tab": "url('./images/tab/tab-reviews.jpg'), var(--bg-modal)",
+        "reviews-tab2x":
+          "url('./images/tab/tab-reviews@2x.jpg'), var(--bg-modal)",
+        "reviews-desk":
+          "url('./images/desk/desk-reviews.jpg'), var(--bg-modal)",
+        "reviews-desk2x":
+          "url('./images/desk/desk-reviews@2x.jpg'), var(--bg-modal)",
       },
     },
   },

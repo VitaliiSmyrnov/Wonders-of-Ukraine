@@ -41,6 +41,7 @@
       #fff -54.67%,
       rgba(255, 255, 255, 0) 58.38%
     );
+    --bg-reviews-mob: linear-gradient(to right, #24301a, #072025 30%, #072027);
   }
 }
 

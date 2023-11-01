@@ -64,3 +64,36 @@ const swiperGallery = new Swiper("#swiper-gallery", {
   centeredSlides: true,
   centeredSlidesBounds: true,
 });
+
+const swiperReviews = new Swiper("#swiper-reviews", {
+  // Optional parameters
+  modules: [Navigation, Keyboard],
+  direction: "horizontal",
+  loop: false,
+  breakpoints: {
+    834: {
+      slidesPerView: "auto",
+      spaceBetween: 32,
+      centeredSlides: false,
+      centeredSlidesBounds: false,
+    },
+    1440: {
+      slidesPerView: 4,
+      spaceBetween: 32,
+      centeredSlides: false,
+      centeredSlidesBounds: false,
+    },
+  },
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
+  navigation: {
+    nextEl: ".swiper-next-3",
+    prevEl: ".swiper-prev-3",
+  },
+  spaceBetween: 16,
+  slidesPerView: 1,
+  centeredSlides: true,
+  centeredSlidesBounds: true,
+});
