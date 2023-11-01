@@ -76,6 +76,15 @@ export default {
           "url('./images/desk/desk-reviews.jpg'), var(--bg-modal)",
         "reviews-desk2x":
           "url('./images/desk/desk-reviews@2x.jpg'), var(--bg-modal)",
+        "travel-mob": "url('./images/mob/mob-travel.jpg'), var(--bg-form)",
+        "travel-mob2x":
+          "url('./images/mob/mob-travel@2x.jpg'), var(--bg-form)",
+        "travel-tab": "url('./images/tab/tab-travel.jpg'), var(--bg-form)",
+        "travel-tab2x":
+          "url('./images/tab/tab-travel@2x.jpg'), var(--bg-form)",
+        "travel-desk": "url('./images/desk/desk-travel.jpg'), var(--bg-form)",
+        "travel-desk2x":
+          "url('./images/desk/desk-travel@2x.jpg'), var(--bg-form)",
       },
     },
   },
