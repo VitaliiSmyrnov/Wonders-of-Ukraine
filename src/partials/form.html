@@ -1,0 +1,57 @@
+<!-- Form  -->
+
+<section
+  class="relative mt-[80px] h-[800px] md:mt-[100px] md:h-[786px] lg:h-[840px]"
+>
+  <div
+    class="bg-travel-mob dpr:bg-travel-mob2x md:bg-travel-tab md:dpr:bg-travel-tab2x lg:bg-travel-desk lg:dpr:bg-travel-desk2x absolute left-0 top-0 z-10 h-[800px] w-[375px] bg-cover bg-center bg-no-repeat md:h-[786px] md:w-[602px] lg:h-[840px] lg:w-[704px]"
+  ></div>
+
+  <div
+    class="absolute right-0 top-[54px] z-20 h-[692px] w-[375px] bg-bg px-[16px] py-[39px] md:right-[32px] md:top-[135px] md:flex md:h-[516px] md:w-[770px] md:gap-[32px] md:rounded md:border md:border-solid md:border-white md:px-[49px] md:py-[69px] lg:h-[570px] lg:w-[1032px] lg:px-[180px] lg:py-[96px]"
+  >
+    <div class="mb-[32px] w-[320px]">
+      <h3 class="text-32">Start travel</h3>
+      <p class="mt-[24px] font-lato text-16">
+        If you want to get an unforgettable trip, quickly fill out the
+        application and we will contact you during the day
+      </p>
+      <p class="mt-[24px] font-lato text-16">
+        We are ready to answer any questions and help choose the best tour
+      </p>
+    </div>
+
+    <form action="#" method="post" class="w-[343px] md:w-[320px]">
+      <label for="name" class="text-18">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Enter your name"
+        autocomplete="off"
+        required
+        class="mb-[12px] w-full border border-solid border-white bg-bg px-[12px] py-[14px] font-lato text-16 outline-none lg:rounded"
+      />
+      <label for="phone" class="text-18">Phone</label>
+      <input
+        type="tel"
+        name="phone"
+        id="phone"
+        placeholder="+380__-___-__-__"
+        autocomplete="off"
+        required
+        class="mb-[12px] w-full border border-solid border-white bg-bg px-[12px] py-[14px] font-lato text-16 outline-none lg:rounded"
+      />
+      <textarea
+        placeholder="Your message"
+        class="mb-[32px] h-[102px] w-full border border-solid border-white bg-bg px-[12px] py-[14px] font-lato text-16 outline-none lg:rounded"
+      ></textarea>
+      <button
+        type="button"
+        class="h-[54px] w-full bg-but text-16 transition-all hover:border hover:border-solid hover:border-white hover:bg-bg md:rounded"
+      >
+        Send
+      </button>
+    </form>
+  </div>
+</section>
