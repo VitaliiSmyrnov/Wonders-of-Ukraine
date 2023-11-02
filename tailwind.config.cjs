@@ -39,6 +39,7 @@ export default {
         text: "0px 4px 4px rgba(0, 0, 0, 0.25)",
       },
       fontSize: {
+        12: ["12px", { lineHeight: "16.8px", letterSpacing: "0.12px" }],
         16: ["16px", { lineHeight: "22.4px", letterSpacing: "0.16px" }],
         18: ["18px", { lineHeight: "25.2px", letterSpacing: "0.18px" }],
         20: ["20px", { lineHeight: "28.0px", letterSpacing: "0.2px" }],
@@ -77,11 +78,9 @@ export default {
         "reviews-desk2x":
           "url('./images/desk/desk-reviews@2x.jpg'), var(--bg-modal)",
         "travel-mob": "url('./images/mob/mob-travel.jpg'), var(--bg-form)",
-        "travel-mob2x":
-          "url('./images/mob/mob-travel@2x.jpg'), var(--bg-form)",
+        "travel-mob2x": "url('./images/mob/mob-travel@2x.jpg'), var(--bg-form)",
         "travel-tab": "url('./images/tab/tab-travel.jpg'), var(--bg-form)",
-        "travel-tab2x":
-          "url('./images/tab/tab-travel@2x.jpg'), var(--bg-form)",
+        "travel-tab2x": "url('./images/tab/tab-travel@2x.jpg'), var(--bg-form)",
         "travel-desk": "url('./images/desk/desk-travel.jpg'), var(--bg-form)",
         "travel-desk2x":
           "url('./images/desk/desk-travel@2x.jpg'), var(--bg-form)",

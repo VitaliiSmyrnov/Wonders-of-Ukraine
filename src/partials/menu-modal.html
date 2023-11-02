@@ -1,7 +1,7 @@
 <!-- Menu popup -->
 
 <div
-  class="backdrop-hidden absolute left-0 top-0 z-20 h-[812px] w-[375px] -translate-y-full overflow-y-auto bg-bg transition-all duration-200 md:hidden"
+  class="absolute left-0 top-0 z-20 h-[812px] w-[375px] -translate-y-full overflow-y-auto bg-bg transition-all duration-200 backdrop-hidden md:hidden"
   data-menu
 >
   <div class="flex h-[78px] items-center justify-between p-[16px]">
@@ -33,27 +33,27 @@
   </div>
 
   <ul
-    class="text-18 absolute left-[151px] top-[260px] z-40 flex w-[74px] flex-col items-center gap-[16px] font-lato font-bold"
+    class="absolute left-[151px] top-[260px] z-40 flex w-[74px] flex-col items-center gap-[16px] font-lato text-18 font-bold"
   >
     <li>
-      <a href="#about-us" class="transition-opacity hover:opacity-70"
+      <a href="#about-us" class="transition-all hover:text-white/70"
         >About us</a
       >
     </li>
     <li>
-      <a href="#tours" class="transition-opacity hover:opacity-70">Tours</a>
+      <a href="#tours" class="transition-all hover:text-white/70">Tours</a>
     </li>
     <li>
-      <a href="#gallery" class="transition-opacity hover:opacity-70">Gallery</a>
+      <a href="#gallery" class="transition-all hover:text-white/70">Gallery</a>
     </li>
     <li>
-      <a href="#contacts" class="transition-opacity hover:opacity-70"
+      <a href="#contacts" class="transition-all hover:text-white/70"
         >Contacts</a
       >
     </li>
   </ul>
 
   <div
-    class="bg-modal dpr:bg-modal2x absolute bottom-0 left-0 z-30 h-[527px] w-[375px] bg-cover bg-center bg-no-repeat"
+    class="absolute bottom-0 left-0 z-30 h-[527px] w-[375px] bg-modal bg-cover bg-center bg-no-repeat dpr:bg-modal2x"
   ></div>
 </div>
