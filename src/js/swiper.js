@@ -1,7 +1,3 @@
-// import Swiper from "swiper/bundle";
-
-// import "swiper/css/bundle";
-
 import Swiper from "swiper";
 import { Navigation, Keyboard } from "swiper/modules";
 
