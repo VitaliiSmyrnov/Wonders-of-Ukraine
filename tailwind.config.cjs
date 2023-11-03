@@ -19,9 +19,6 @@ export default {
         sm: "375px",
         md: "834px",
         lg: "1440px",
-        "md-img": "400px",
-        "lg-img": "900px",
-        "xlg-img": "1500px",
         dpr: {
           raw: "screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx)",
         },
@@ -34,9 +31,6 @@ export default {
         bg: "#141A19",
         but: "#394014",
         grey: "#5A5959",
-      },
-      dropShadow: {
-        text: "0px 4px 4px rgba(0, 0, 0, 0.25)",
       },
       fontSize: {
         12: ["12px", { lineHeight: "16.8px", letterSpacing: "0.12px" }],
@@ -51,6 +45,7 @@ export default {
         128: ["128px", { lineHeight: "179.2px", letterSpacing: "1.28px" }],
       },
       backgroundImage: {
+        mirror: "var(--bg-hero-mirror)",
         modal: "url('./images/mob/mob-reviews.jpg'), var(--bg-modal)",
         modal2x: "url('./images/mob/mob-reviews@2x.jpg'), var(--bg-modal)",
         "hero-mob": "url('./images/mob/mob-hero.jpg'), var(--bg-hero)",

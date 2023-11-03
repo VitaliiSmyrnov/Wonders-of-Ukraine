@@ -37,11 +37,11 @@
       #1d2527
     );
     --bg-hero-mirror: linear-gradient(
-      15deg,
+      5deg,
       #fff -54.67%,
-      rgba(255, 255, 255, 0) 58.38%
+      rgba(255, 255, 255, 0) 63.38%
     );
-    --bg-form: linear-gradient(to bottom, #8a674a, #8a6b50, #86613E);
+    --bg-form: linear-gradient(to bottom, #8a674a, #8a6b50, #86613e);
   }
 }
 
