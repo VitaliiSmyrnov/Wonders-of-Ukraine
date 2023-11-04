@@ -46,7 +46,7 @@ export default {
       },
       backgroundImage: {
         mirror: "var(--bg-hero-mirror)",
-        modal: "url('./images/mob/mob-reviews.jpg'), var(--bg-modal)",
+        modal: "url('images/mob/mob-reviews.jpg'), var(--bg-modal)",
         modal2x: "url('./images/mob/mob-reviews@2x.jpg'), var(--bg-modal)",
         "hero-mob": "url('./images/mob/mob-hero.jpg'), var(--bg-hero)",
         "hero-mob2x": "url('./images/mob/mob-hero@2x.jpg'), var(--bg-hero)",
