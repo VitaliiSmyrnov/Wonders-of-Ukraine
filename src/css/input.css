@@ -3,7 +3,7 @@
   font-family: "Jomolhari";
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/jomolhari-v18-latin-regular.woff2") format("woff2");
+  src: url("../fonts/jomolhari-v18-latin-regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -11,7 +11,7 @@
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/lato-v24-latin-regular.woff2") format("woff2");
+  src: url("../fonts/lato-v24-latin-regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -19,7 +19,7 @@
   font-family: "Lato";
   font-style: normal;
   font-weight: 700;
-  src: url("fonts/lato-v24-latin-700.woff2") format("woff2");
+  src: url("../fonts/lato-v24-latin-700.woff2") format("woff2");
 }
 
 @tailwind base;
