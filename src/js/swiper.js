@@ -88,7 +88,7 @@ const swiperReviews = new Swiper("#swiper-reviews", {
     nextEl: ".swiper-next-3",
     prevEl: ".swiper-prev-3",
   },
-  spaceBetween: 16,
+  spaceBetween: 17,
   slidesPerView: 1,
   centeredSlides: true,
   centeredSlidesBounds: true,
